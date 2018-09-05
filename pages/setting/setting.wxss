@@ -1,7 +1,7 @@
 .container {
     background: #eee;
     background-size: cover;
-    background-image: url(/images/bg.png);
+    /* background-image: url(/images/bg.png); */
 }
 .avatar {
     width: 100px;

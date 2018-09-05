@@ -1,0 +1,53 @@
+<!-- 推荐 -->
+<scroll-view class="container" style="height: {{systemInfo.windowHeight}}px;" scroll-y bindscrolltolower="pullUpLoad">
+  <swiper wx:if="{{topActivities}}" indicator-dots="true" interval="4000" duration="600" style="height:{{systemInfo.windowWidth/3}}px">
+    <block wx:for="{{topActivities}}">
+      <swiper-item>
+        <view class="cardContainer" style="width={{systemInfo.windowWidth}}px; height=400rpx;">
+          <image src="{{item.sponsor.avatar}}" class="avatar" />
+          <view class='activityContent'>
+            <text class='nickname'>{{item.sponsor.nickName}}</text>
+            <text class='locationName'>{{item.locationName}}</text>
+            <view>
+              <text class='activityTime'>{{item.time}}</text>
+              <van-icon name="location" size="30rpx" color="red" />
+              <text class='activityCoordinate'>位置</text>
+            </view>
+          </view>
+        </view>
+      </swiper-item>
+    </block>
+  </swiper>
+
+  <view class="line-text">
+    捷钱活动
+  </view>
+
+  <block wx:for="{{list}}">
+    <view class="hot-item">
+      <view class="image-container" data-row-id="{{item.row_id}}" bindtap="onItemClick">
+        <image src="{{item.pic}}" mode="scaleToFill" class="hot-image" style="width:{{systemInfo.windowWidth}}px;height:{{systemInfo.windowWidth}}px">
+        </image>
+        <view class="item-mask">
+          <text class="hot-item-title">{{item.name}}</text>
+          <text class="hot-item-category">{{item.category}}{{item.size_label?' / '+item.size_label:''}}{{item.times?' / '+item.times:''}}</text>
+        </view>
+      </view>
+
+      <view class="hot-item-desc">
+        <image src="{{item.avatar}}" class="hot-head-image"></image>
+        <view class="hot-item-detail">
+          <text class="hot-item-username">{{item.name}}</text>
+          <view class="hot-location">
+            <image src="../../images/location.png" class="hot-location-icon"></image>
+            {{item.city}}
+          </view>
+        </view>
+        <view class="hot-item-like">
+          <image src="../../images/like.png" class="hot-like-icon"></image>
+          {{item.num_liked}}
+        </view>
+      </view>
+    </view>
+  </block>
+</scroll-view>
