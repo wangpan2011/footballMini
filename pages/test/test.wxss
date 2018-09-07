@@ -4,8 +4,18 @@
   color: rgb(255, 255, 255)
 }
 
+.swiperItemContainer {
+  display: flex;
+  align-items: center;
+  background: whitesmoke;
+  margin: 12rpx;
+}
+.swiperItemContainer:active {
+  background: lightgray;
+}
 
 .cardContainer {
+  display: flex;
   background: whitesmoke;
   border: 2rpx solid lightgray;
   border-radius: 6rpx;
@@ -16,33 +26,62 @@
   background: lightgray;
 }
 .avatar {
-  width: 150rpx;
-  height: 150rpx;
+  width: 168rpx;
+  height: 168rpx;
   margin: 10rpx;
+  border: 0 solid #ff0000;
+  border-radius: 84rpx;
+}
+.avatarLittle {
+  width: 42rpx;
+  height: 42rpx;
+  margin: 6rpx;
+  border: 0 solid #ff0000;
+  border-radius: 21rpx;
 }
 .activityContent {
-  display: inline-block;
-  top: 24rpx;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 30rpx;
+  padding-bottom: 30rpx;
+  padding-left: 12rpx;
 }
 .nickname {
-  display: block;
   font-size: small;
 }
 .locationName {
-  display: block;
 }
 .activityFooter {
-  height: 30rpx;
-  display: block;
+  height: 60rpx;
+  display: flex;
+  margin-right: 18rpx;
+  margin-top: 6rpx;
+  border-top: 1rpx solid green;
+  justify-content: space-between;
+  align-items: center;
 }
 .activityTime {
-  position: relative;
-  top: 50%;
   font-size: x-small;
-  margin-right: 30rpx;
+}
+.locationContainer {
+  display: flex;
+  align-items: center;
 }
 .activityCoordinate {
-  position: relative;
-  top: 50%;
   font-size: x-small;
+}
+.participantAvatars {
+  padding-top: 6rpx;
+  padding-bottom: 6rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.line-text {
+  font-size: small;
+  border-left: 4rpx solid #000;
+  padding-left: 10rpx;
+  margin: 20rpx 20rpx;
 }

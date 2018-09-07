@@ -11,7 +11,7 @@
     style="height:{{systemInfo.windowWidth/2}}px">
     <block wx:for="{{swipers}}">
       <swiper-item>
-        <image src="{{item.pic}}" class="slide-image" width="750"/>
+        <image src="{{item.pic}}" class="slide-image" width="750"></image>
       </swiper-item>
     </block>
   </swiper>

@@ -10,6 +10,56 @@ Page({
           avatar: "http://localhost:3000/static/images/testImages/avatar.png",
           nickName: "捷钱"
         },
+        participantAvatars: [
+          "http://localhost:3000/static/images/testImages/avatar.png",
+          "http://localhost:3000/static/images/testImages/avatar.png",
+          "http://localhost:3000/static/images/testImages/avatar.png",
+          "http://localhost:3000/static/images/testImages/avatar.png",
+          "http://localhost:3000/static/images/testImages/avatar.png",
+          "http://localhost:3000/static/images/testImages/avatar.png"
+          ],
+        locationName: "朝阳门银河SOHO",
+        tips: "捷钱捷钱捷钱捷钱捷钱捷钱不要迟到",
+        time: "2018/09/05 18:00-20:00",
+        coordinate: [109, 208]
+      },
+      {
+        id: "2",
+        sponsor: {
+          avatar: "http://localhost:3000/static/images/testImages/avatar.png",
+          nickName: "捷钱"
+        },
+        participantAvatars: [
+          "http://localhost:3000/static/images/testImages/avatar.png",
+          "http://localhost:3000/static/images/testImages/avatar.png",
+          "http://localhost:3000/static/images/testImages/avatar.png",
+          "http://localhost:3000/static/images/testImages/avatar.png",
+          "http://localhost:3000/static/images/testImages/avatar.png",
+          "http://localhost:3000/static/images/testImages/avatar.png"
+        ],
+        locationName: "朝阳门银河SOHO",
+        tips: "捷钱捷钱捷钱捷钱捷钱捷钱不要迟到",
+        time: "2018/09/05 18:00-20:00",
+        coordinate: [109, 208]
+      }
+    ], //置顶的活动：我的捷钱活动、或其他推荐活动
+    otherBanners: [
+      {
+        id: "1",
+        img: "http://localhost:3000/static/images/testImages/swiper1.jpg"
+      },
+      {
+        id: "2",
+        img: "http://localhost:3000/static/images/testImages/swiper2.jpg"
+      }
+    ],
+    activityList: [
+      {
+        id: "1",
+        sponsor: {
+          avatar: "http://localhost:3000/static/images/testImages/avatar.png",
+          nickName: "捷钱"
+        },
         locationName: "朝阳门银河SOHO",
         tips: "捷钱捷钱捷钱捷钱捷钱捷钱不要迟到",
         time: "2018/09/05 18:00-20:00",
@@ -48,7 +98,7 @@ Page({
         time: "2018/09/05 18:00-20:00",
         coordinate: [109, 208]
       }
-    ], //置顶的活动：我的捷钱活动、或其他推荐活动
+    ],
     toView: 'red',
     scrollTop: 100
   },

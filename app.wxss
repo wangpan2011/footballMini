@@ -15,3 +15,9 @@ page {
 .hidden {
     display: none;
 }
+
+
+
+.fontSizeXSmall {
+  font-size: x-small;
+}
