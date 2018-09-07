@@ -18,6 +18,12 @@ page {
 
 
 
+.fontSizeLarge {
+  font-size:large;
+}
+.fontSizeSmall {
+  font-size: small;
+}
 .fontSizeXSmall {
   font-size: x-small;
 }

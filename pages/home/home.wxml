@@ -7,9 +7,9 @@
 
           <image src="{{item.sponsor.avatar}}" class="avatar" />
           <view class='activityContent'>
-            <text class='nickname'>{{item.sponsor.nickName}}</text>
+            <text class='nickname'>[发起人]{{item.sponsor.nickName}}</text>
             <text class='locationName'>{{item.locationName}}</text>
-            <text class='fontSizeXSmall'>{{item.tips}}</text>
+            <text class='fontSizeXSmall' style='color: midnightblue;'>{{item.tips}}</text>
             <view class='participantAvatars'>
               <image src="{{avatarItem}}" class="avatarLittle" wx:for="{{item.participantAvatars}}" wx:for-item="avatarItem" />
             </view>
@@ -17,7 +17,7 @@
               <text class='activityTime'>{{item.time}}</text>
               <view class='locationContainer'>
                 <van-icon name="location" size="30rpx" color="red" />
-                <text class='activityCoordinate'>位置</text>
+                <text class='activityCoordinate'>3.5KM</text>
               </view>
             </view>
           </view>
@@ -35,15 +35,16 @@
   </swiper>
 
   <view class="line-text">
-    捷钱活动
+    热门活动
   </view>
 
   <block wx:for="{{activityList}}">
     <view class="cardContainer" style="width={{systemInfo.windowWidth}}px; height:240rpx;">
       <image src="{{item.sponsor.avatar}}" class="avatar" />
       <view class='activityContent'>
-        <text class='nickname'>{{item.sponsor.nickName}}</text>
+        <text class='nickname'>[发起人]{{item.sponsor.nickName}}</text>
         <text class='locationName'>{{item.locationName}}</text>
+        <text class='fontSizeXSmall' style='color: midnightblue;'>{{item.tips}}</text>
         <view class='activityFooter'>
           <text class='activityTime'>{{item.time}}</text>
           <view class='locationContainer'>

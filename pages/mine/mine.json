@@ -1,8 +1,8 @@
 {
-  "navigationBarTitleText": "一起踢球", 
+  "navigationBarTitleText": "我的", 
   "backgroundTextStyle": "light",
-  "navigationBarBackgroundColor": "white",
-  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#32CD32",
+  "navigationBarTextStyle": "white",
   "usingComponents": {
     "van-button": "vant-weapp/button/index",
     "van-icon": "vant-weapp/icon/index"

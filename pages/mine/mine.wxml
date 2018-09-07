@@ -1,0 +1,47 @@
+<!-- 推荐 -->
+<scroll-view class="container" style="height: {{systemInfo.windowHeight}}px;" scroll-y bindscrolltolower="pullUpLoad">
+  <view class='topGreenBg'></view>
+  <view class='mineInfoContainer'>
+    <view class='avatarContainer'>
+      <image class='mineAvatar' src='{{avatar}}' />
+      <image src='{{countryImg}}' style='width:45rpx;height:30rpx;' />
+      <text class='fontSizeXSmall'>{{provinceName}}</text>
+    </view>
+    <view class="mineInfoCard">
+      <view style='display:flex; flex-direction:column; justify-content: space-between; width:50%'>
+        <view style='display:flex; flex-direction:column; align-items:center'>
+          <text class='fontSizeSmall' style='color:limegreen; font-family:fantasy;font-weight:bold'>{{shirtNumber}}</text>
+          <text>{{name}}</text>
+        </view>
+        <text class='fontSizeSmall'>{{slogan}}</text>
+      </view>
+      <view style='display:flex; flex-direction:column; align-items:center; padding-right:30rpx'>
+        <image src='{{positionImg}}' style="width:120rpx; height: 160rpx;" />
+        <text class='fontSizeSmall' style='margin-top: 12rpx'>{{positionName}}</text>
+      </view>
+    </view>
+
+
+
+
+    <view class='mineItemContainer'>
+      <van-icon name="exchange" style='margin-bottom:-9rpx; margin-right:18rpx' />
+      <text style='flex-grow:1'>踢球记录</text>
+      <van-icon name="arrow" style='margin-bottom:-9rpx' />
+    </view>
+
+    <view class='dividerHorizontal' />
+    <view class='mineItemContainer'>
+      <van-icon name="chat" style='margin-bottom:-9rpx; margin-right:18rpx' />
+      <text style='flex-grow:1'>我要吐槽</text>
+      <van-icon name="arrow" style='margin-bottom:-9rpx' />
+    </view>
+    <view class='dividerHorizontal' />
+    <view class='mineItemContainer'>
+      <van-icon name="info-o" style='margin-bottom:-9rpx; margin-right:18rpx' />
+      <text style='flex-grow:1'>关于我们</text>
+      <van-icon name="arrow" style='margin-bottom:-9rpx' />
+    </view>
+  </view>
+
+</scroll-view>

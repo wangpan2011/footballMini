@@ -1,5 +1,4 @@
 let order = ['red', 'yellow', 'blue', 'green', 'red'];
-// pages/test/test.js
 Page({
 
   data: {
@@ -7,38 +6,42 @@ Page({
       {
         id: "1",
         sponsor: {
-          avatar: "http://localhost:3000/static/images/testImages/avatar.png",
-          nickName: "捷钱"
+          avatar: "http://www.liyan9.com:3000/static/football/images/proplayer/messi.png",
+          nickName: "梅西"
         },
         participantAvatars: [
-          "http://localhost:3000/static/images/testImages/avatar.png",
-          "http://localhost:3000/static/images/testImages/avatar.png",
-          "http://localhost:3000/static/images/testImages/avatar.png",
-          "http://localhost:3000/static/images/testImages/avatar.png",
-          "http://localhost:3000/static/images/testImages/avatar.png",
-          "http://localhost:3000/static/images/testImages/avatar.png"
+          "http://www.liyan9.com:3000/static/football/images/proplayer/costa.png",
+          "http://www.liyan9.com:3000/static/football/images/proplayer/modric.png",
+          "http://www.liyan9.com:3000/static/football/images/proplayer/ronaldo.png",
+          "http://www.liyan9.com:3000/static/football/images/proplayer/kane.png",
+          "http://www.liyan9.com:3000/static/football/images/proplayer/greziman.png",
+          "http://www.liyan9.com:3000/static/football/images/proplayer/hazard.png",
+          "http://www.liyan9.com:3000/static/football/images/proplayer/cavani.png",
+          "http://www.liyan9.com:3000/static/football/images/proplayer/silva.png"
           ],
-        locationName: "朝阳门银河SOHO",
-        tips: "捷钱捷钱捷钱捷钱捷钱捷钱不要迟到",
+        locationName: "奥信体育公园3号场",
+        tips: "请准时参加不要迟到；请携带蓝色、绿色号坎",
         time: "2018/09/05 18:00-20:00",
         coordinate: [109, 208]
       },
       {
         id: "2",
         sponsor: {
-          avatar: "http://localhost:3000/static/images/testImages/avatar.png",
-          nickName: "捷钱"
+          avatar: "http://www.liyan9.com:3000/static/football/images/proplayer/ronaldo.png",
+          nickName: "罗纳尔多"
         },
         participantAvatars: [
-          "http://localhost:3000/static/images/testImages/avatar.png",
-          "http://localhost:3000/static/images/testImages/avatar.png",
-          "http://localhost:3000/static/images/testImages/avatar.png",
-          "http://localhost:3000/static/images/testImages/avatar.png",
-          "http://localhost:3000/static/images/testImages/avatar.png",
-          "http://localhost:3000/static/images/testImages/avatar.png"
+          "http://www.liyan9.com:3000/static/football/images/proplayer/costa.png",
+          "http://www.liyan9.com:3000/static/football/images/proplayer/modric.png",
+          "http://www.liyan9.com:3000/static/football/images/proplayer/messi.png",
+          "http://www.liyan9.com:3000/static/football/images/proplayer/kane.png",
+          "http://www.liyan9.com:3000/static/football/images/proplayer/greziman.png",
+          "http://www.liyan9.com:3000/static/football/images/proplayer/hazard.png",
+          "http://www.liyan9.com:3000/static/football/images/proplayer/cavani.png",
+          "http://www.liyan9.com:3000/static/football/images/proplayer/silva.png"
         ],
-        locationName: "朝阳门银河SOHO",
-        tips: "捷钱捷钱捷钱捷钱捷钱捷钱不要迟到",
+        locationName: "仰山公园3号场",
+        tips: "请准时参加不要迟到；请携带蓝色、绿色号坎",
         time: "2018/09/05 18:00-20:00",
         coordinate: [109, 208]
       }
@@ -46,55 +49,55 @@ Page({
     otherBanners: [
       {
         id: "1",
-        img: "http://localhost:3000/static/images/testImages/swiper1.jpg"
+        img: "http://www.liyan9.com:3000/static/football/images/banners/banner1.jpg"
       },
       {
         id: "2",
-        img: "http://localhost:3000/static/images/testImages/swiper2.jpg"
+        img: "http://www.liyan9.com:3000/static/football/images/banners/banner2.png"
       }
     ],
     activityList: [
       {
         id: "1",
         sponsor: {
-          avatar: "http://localhost:3000/static/images/testImages/avatar.png",
-          nickName: "捷钱"
+          avatar: "http://www.liyan9.com:3000/static/football/images/proplayer/modric.png",
+          nickName: "莫德里奇"
         },
-        locationName: "朝阳门银河SOHO",
-        tips: "捷钱捷钱捷钱捷钱捷钱捷钱不要迟到",
+        locationName: "仰山公园3号场",
+        tips: "请准时参加不要迟到；请携带蓝色、绿色号坎",
         time: "2018/09/05 18:00-20:00",
         coordinate: [109, 208]
       },
       {
         id: "2",
         sponsor: {
-          avatar: "http://localhost:3000/static/images/testImages/avatar.png",
-          nickName: "捷钱"
+          avatar: "http://www.liyan9.com:3000/static/football/images/proplayer/kane.png",
+          nickName: "哈里凯恩"
         },
-        locationName: "朝阳门银河SOHO",
-        tips: "捷钱捷钱捷钱捷钱捷钱捷钱不要迟到",
+        locationName: "仰山公园3号场",
+        tips: "请准时参加不要迟到；请携带蓝色、绿色号坎",
         time: "2018/09/05 18:00-20:00",
         coordinate: [109, 208]
       },
       {
         id: "3",
         sponsor: {
-          avatar: "http://localhost:3000/static/images/testImages/avatar.png",
-          nickName: "捷钱"
+          avatar: "http://www.liyan9.com:3000/static/football/images/proplayer/hazard.png",
+          nickName: "阿扎尔"
         },
-        locationName: "朝阳门银河SOHO",
-        tips: "捷钱捷钱捷钱捷钱捷钱捷钱不要迟到",
+        locationName: "仰山公园3号场",
+        tips: "请准时参加不要迟到；请携带蓝色、绿色号坎",
         time: "2018/09/05 18:00-20:00",
         coordinate: [109, 208]
       },
       {
         id: "4",
         sponsor: {
-          avatar: "http://localhost:3000/static/images/testImages/avatar.png",
-          nickName: "捷钱"
+          avatar: "http://www.liyan9.com:3000/static/football/images/proplayer/cavani.png",
+          nickName: "卡瓦尼"
         },
-        locationName: "朝阳门银河SOHO",
-        tips: "捷钱捷钱捷钱捷钱捷钱捷钱不要迟到",
+        locationName: "仰山公园3号场",
+        tips: "请准时参加不要迟到；请携带蓝色、绿色号坎",
         time: "2018/09/05 18:00-20:00",
         coordinate: [109, 208]
       }

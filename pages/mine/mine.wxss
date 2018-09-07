@@ -14,17 +14,68 @@
   background: lightgray;
 }
 
-.cardContainer {
+
+
+
+.topGreenBg {
+  background-color: limegreen;
+  height: 240rpx;
+}
+.mineInfoContainer {
   display: flex;
+  flex-direction:column;
+  align-items: center;
+  position: relative;
+  top: -240rpx;
+}
+.avatarContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+}
+.mineAvatar {
+  width: 120rpx;
+  height: 120rpx;
+  margin: 10rpx;
+  border: 6rpx solid whitesmoke;
+  border-radius: 60rpx;
+}
+.mineInfoCard {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  height: 180rpx;
   background: whitesmoke;
   border: 2rpx solid lightgray;
   border-radius: 6rpx;
   box-shadow: 0 4rpx 8rpx 0 rgba(0,0,0,0.2);
-  margin: 30rpx;
+  margin: 90rpx 30rpx 30rpx 30rpx;
+  padding: 30rpx;
 }
-.cardContainer:active {
+.mineInfoCard:active {
   background: lightgray;
 }
+
+.mineItemContainer {
+  display: flex;
+  align-items: center;
+  height: 90rpx;
+  width: 90%;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+}
+.dividerHorizontal {
+  height: 1rpx;
+  width: 90%;
+  background-color: lightgray;
+}
+
+
+
+
+
+
 .avatar {
   width: 168rpx;
   height: 168rpx;
@@ -50,7 +101,6 @@
 }
 .nickname {
   font-size: small;
-  color: midnightblue;
 }
 .locationName {
 }
@@ -65,7 +115,6 @@
 }
 .activityTime {
   font-size: x-small;
-  color: dimgray;
 }
 .locationContainer {
   display: flex;
@@ -73,7 +122,6 @@
 }
 .activityCoordinate {
   font-size: x-small;
-  margin-left: 12rpx
 }
 .participantAvatars {
   padding-top: 6rpx;

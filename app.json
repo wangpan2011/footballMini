@@ -7,7 +7,8 @@
     "pages/login/login",
     "pages/register/register",
     "pages/qrcode/qrcode",
-    "pages/index/index"
+    "pages/index/index",
+    "pages/mine/mine"
   ],
   "window": {
     "backgroundTextStyle": "dark",
@@ -32,7 +33,7 @@
         "selectedIconPath": "images/bar_explore.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/mine/mine",
         "iconPath": "images/bar_mine_black.png",
         "selectedIconPath": "images/bar_mine.png"
       }
