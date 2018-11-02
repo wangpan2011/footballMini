@@ -100,6 +100,94 @@ Page({
         tips: "请准时参加不要迟到；请携带蓝色、绿色号坎",
         time: "2018/09/05 18:00-20:00",
         coordinate: [109, 208]
+      },
+      {
+        id: "1",
+        sponsor: {
+          avatar: "http://www.liyan9.com:3000/static/football/images/proplayer/modric.png",
+          nickName: "莫德里奇"
+        },
+        locationName: "仰山公园3号场",
+        tips: "请准时参加不要迟到；请携带蓝色、绿色号坎",
+        time: "2018/09/05 18:00-20:00",
+        coordinate: [109, 208]
+      },
+      {
+        id: "2",
+        sponsor: {
+          avatar: "http://www.liyan9.com:3000/static/football/images/proplayer/kane.png",
+          nickName: "哈里凯恩"
+        },
+        locationName: "仰山公园3号场",
+        tips: "请准时参加不要迟到；请携带蓝色、绿色号坎",
+        time: "2018/09/05 18:00-20:00",
+        coordinate: [109, 208]
+      },
+      {
+        id: "3",
+        sponsor: {
+          avatar: "http://www.liyan9.com:3000/static/football/images/proplayer/hazard.png",
+          nickName: "阿扎尔"
+        },
+        locationName: "仰山公园3号场",
+        tips: "请准时参加不要迟到；请携带蓝色、绿色号坎",
+        time: "2018/09/05 18:00-20:00",
+        coordinate: [109, 208]
+      },
+      {
+        id: "4",
+        sponsor: {
+          avatar: "http://www.liyan9.com:3000/static/football/images/proplayer/cavani.png",
+          nickName: "卡瓦尼"
+        },
+        locationName: "仰山公园3号场",
+        tips: "请准时参加不要迟到；请携带蓝色、绿色号坎",
+        time: "2018/09/05 18:00-20:00",
+        coordinate: [109, 208]
+      },
+      {
+        id: "1",
+        sponsor: {
+          avatar: "http://www.liyan9.com:3000/static/football/images/proplayer/modric.png",
+          nickName: "莫德里奇"
+        },
+        locationName: "仰山公园3号场",
+        tips: "请准时参加不要迟到；请携带蓝色、绿色号坎",
+        time: "2018/09/05 18:00-20:00",
+        coordinate: [109, 208]
+      },
+      {
+        id: "2",
+        sponsor: {
+          avatar: "http://www.liyan9.com:3000/static/football/images/proplayer/kane.png",
+          nickName: "哈里凯恩"
+        },
+        locationName: "仰山公园3号场",
+        tips: "请准时参加不要迟到；请携带蓝色、绿色号坎",
+        time: "2018/09/05 18:00-20:00",
+        coordinate: [109, 208]
+      },
+      {
+        id: "3",
+        sponsor: {
+          avatar: "http://www.liyan9.com:3000/static/football/images/proplayer/hazard.png",
+          nickName: "阿扎尔"
+        },
+        locationName: "仰山公园3号场",
+        tips: "请准时参加不要迟到；请携带蓝色、绿色号坎",
+        time: "2018/09/05 18:00-20:00",
+        coordinate: [109, 208]
+      },
+      {
+        id: "4",
+        sponsor: {
+          avatar: "http://www.liyan9.com:3000/static/football/images/proplayer/cavani.png",
+          nickName: "卡瓦尼"
+        },
+        locationName: "仰山公园3号场",
+        tips: "请准时参加不要迟到；请携带蓝色、绿色号坎",
+        time: "2018/09/05 18:00-20:00",
+        coordinate: [109, 208]
       }
     ],
     toView: 'red',

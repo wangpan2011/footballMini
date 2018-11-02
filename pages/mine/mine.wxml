@@ -1,5 +1,5 @@
 <!-- 推荐 -->
-<scroll-view class="container" style="height: {{systemInfo.windowHeight}}px;" scroll-y bindscrolltolower="pullUpLoad">
+<scroll-view class="container" style="height: {{systemInfo.windowHeight}}px; background-color: white;" scroll-y bindscrolltolower="pullUpLoad">
   <view class='topGreenBg'></view>
   <view class='mineInfoContainer'>
     <view class='avatarContainer'>

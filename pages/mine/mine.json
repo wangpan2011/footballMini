@@ -3,6 +3,8 @@
   "backgroundTextStyle": "light",
   "navigationBarBackgroundColor": "#32CD32",
   "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": false,
+  "backgroundColor": "#32CD32",
   "usingComponents": {
     "van-button": "vant-weapp/button/index",
     "van-icon": "vant-weapp/icon/index"

@@ -28,11 +28,6 @@
         "selectedIconPath": "images/bar_home.png"
       },
       {
-        "pagePath": "pages/discover/discover",
-        "iconPath": "images/bar_explore_black.png",
-        "selectedIconPath": "images/bar_explore.png"
-      },
-      {
         "pagePath": "pages/mine/mine",
         "iconPath": "images/bar_mine_black.png",
         "selectedIconPath": "images/bar_mine.png"
